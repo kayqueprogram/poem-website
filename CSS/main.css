@@ -70,15 +70,15 @@ body {
 }
 
 .card_home1 img {
-    width: 68%;
+    width: 71%;
     border-radius: 10px;
 }
 
 .card_home1 {
     width: 500px;
-
+    padding: 20px 20px;
+    margin: 20px;
     background: #2a2634;
-    padding: 20px;
     border-radius: 10px; 
     position: relative;
 }

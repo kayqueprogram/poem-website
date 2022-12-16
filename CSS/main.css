@@ -5,6 +5,7 @@
     --color-dark3: #414141;
     --color-dark4: #1c1c1c;
     --color-dark5: #343434;
+    --color-border: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);;
     --color-purple: #b040ff;
 }
 
@@ -63,4 +64,17 @@ body {
     color: var(--color-white);
     cursor: pointer;
     display: none;
+}
+
+.card_home1 img {
+    width: 300px;
+}
+
+.card_home1 {
+    width: 400px;
+    height: 450px;
+    background-image: var(--color-border);
+    background-color: #2a2634;
+    padding-bottom: 4px;
+    border-radius: 10px; 
 }

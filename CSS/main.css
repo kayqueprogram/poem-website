@@ -52,7 +52,10 @@ body {
 }  
 
 .content {
+    display: flex;
     text-align: center;
+    align-items: center;
+    flex-direction: column;
     padding-top: 5em;
     height: 100vh;
     transition: 1s;
@@ -67,14 +70,23 @@ body {
 }
 
 .card_home1 img {
-    width: 300px;
+    width: 78%;
+    border-radius: 10px;
 }
 
 .card_home1 {
     width: 400px;
-    height: 450px;
+
     background-image: var(--color-border);
-    background-color: #2a2634;
     padding-bottom: 4px;
     border-radius: 10px; 
+
+    position: relative;
+}
+
+.card_home1::after {
+    position: absolute;
+    width:100%;
+    height: xpx;
+    bottom:0;
 }

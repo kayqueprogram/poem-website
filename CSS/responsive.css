@@ -2,7 +2,6 @@
     .btn_icon_header {
         display: block;
         user-select: none;
-        pointer-events: none;
     }
 
     .navigation_header {

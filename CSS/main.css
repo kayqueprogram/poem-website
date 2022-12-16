@@ -119,6 +119,16 @@ body {
     animation-name: SlideIn;
 }
 
+.card_person  img{
+    width: 48%;
+    border-radius: 50%;
+}
+
+.card_person {
+    width: 400px;
+    padding: 20px 10px 20px 10px;
+}
+
 @keyframes SlideIn {
 	0% {
         transform: translateY(-10000px);

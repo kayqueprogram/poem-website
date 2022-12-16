@@ -1,6 +1,7 @@
 @media screen and (max-width: 760px) {
     .btn_icon_header {
         display: block;
+        user-select: none;
     }
 
     .navigation_header {
@@ -16,7 +17,7 @@
     }
 
     .card_home1 {
-        width: 400px;
+        width: 360px;
     }
 }
 

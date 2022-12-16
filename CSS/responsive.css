@@ -14,6 +14,10 @@
         animation-duration: 1s;
         margin-left: -100vw;
     }
+
+    .card_home1 {
+        width: 400px;
+    }
 }
 
 @keyframes showSidebar {

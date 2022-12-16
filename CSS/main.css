@@ -5,7 +5,7 @@
     --color-dark3: #414141;
     --color-dark4: #1c1c1c;
     --color-dark5: #343434;
-    --color-border: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);;
+    --color-border: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
     --color-purple: #b040ff;
 }
 
@@ -77,16 +77,15 @@ body {
 .card_home1 {
     width: 400px;
 
-    background-image: var(--color-border);
-    padding-bottom: 4px;
+    background: #2a2634;
+    border-bottom: 5px solid linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
     border-radius: 10px; 
-
     position: relative;
 }
 
 .card_home1::after {
     position: absolute;
     width:100%;
-    height: xpx;
+    height: 150px;
     bottom:0;
 }
